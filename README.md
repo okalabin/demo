@@ -13,7 +13,7 @@
 - **PUT /users/{userId}**: Update user details by ID.
 - **DELETE /users/{userId}**: Delete a user by ID.
 - **POST /users/dumpStructure**: Dump the organizational structure to a JSON file.
-- 
+
 ## Usage
 
 1. Start the Spring Boot application.

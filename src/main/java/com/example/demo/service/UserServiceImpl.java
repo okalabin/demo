@@ -38,7 +38,7 @@ public class UserServiceImpl implements UserService {
             return;
         }
 
-        if (node.getName().contains(name)) {
+        if (node.getName() != null && node.getName().contains(name)) {
             result.add(node);
         }
 
